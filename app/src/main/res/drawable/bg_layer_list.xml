@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <bitmap android:src="@drawable/hinhbackground" />
+    </item>
+    <item
+        android:bottom="20dp"
+        android:right="10dp"
+        android:gravity="bottom|right">
+        <shape android:shape="oval">
+            <size
+                android:width="100dp"
+                android:height="100dp" />
+            <solid android:color="#f20"/>
+        </shape>
+    </item>
+    <item
+        android:bottom="20dp"
+        android:right="10dp"
+        android:gravity="top|right">
+        <shape android:shape="oval">
+            <size
+                android:width="100dp"
+                android:height="100dp" />
+            <solid android:color="#1D75E1"/>
+        </shape>
+    </item>
+</layer-list>
